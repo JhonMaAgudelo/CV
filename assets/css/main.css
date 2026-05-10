@@ -604,7 +604,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  padding: 120px 0;
+  padding: 60px 0 20px;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -615,7 +615,7 @@ section,
 .hero .container {
   position: relative;
   z-index: 2;
-  padding: 80px 15px;
+  padding: 20px 15px;
 }
 
 .hero .hero-content h1 {
@@ -672,7 +672,7 @@ section,
 .hero .hero-content .hero-actions {
   display: flex;
   gap: 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 }
 
 @media (max-width: 576px) {
@@ -941,6 +941,10 @@ section,
   padding-left: 2rem;
 }
 
+.about {
+  padding: 30px 0 0;
+}
+
 .about .content-area .story-block {
   margin-bottom: 3rem;
 }
@@ -1003,7 +1007,7 @@ section,
 
 .about .philosophy-quote {
   position: relative;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .about .philosophy-quote .quote-mark {
@@ -1098,7 +1102,7 @@ section,
 
 @media (max-width: 992px) {
   .about {
-    padding: 80px 0;
+    padding: 40px 0 0;
   }
 
   .about .intro-header {
@@ -1331,6 +1335,7 @@ section,
 # Skills Section
 --------------------------------------------------------------*/
 .skills {
+  padding-top: 40px;
   --section-spacing: 80px;
   --category-spacing: 60px;
   --skill-spacing: 24px;
